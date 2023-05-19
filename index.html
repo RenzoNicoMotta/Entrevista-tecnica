@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+	<title>Renzo Motta PWA</title>
+</head>
+<body>
+	
+	<div class="card">
+		<div class="buscar">
+			<input type="text" class="buscador" placeholder="Pais/Ciudad" spellcheck="false">
+			<button><img src="./images/buscar.png" alt=""></button>
+		</div>
+		<div class="error">
+			<p>Nombre de ciudad invalido</p>
+		</div>
+		<div class="clima">
+			<img src="./" class="clima-icon">
+			<h2 class="ciudad"></h2>
+			<h1 class="temp"></h1>
+			<p class="sensacion"></p>
+			<p class="min"></p>
+			<p class="max"></p>
+			<div class="detalles">
+				<div class="col">
+					<img src="./images/humedad.png" alt="humedad">
+					<div>
+						<p class="humedad"></p>
+						<p>Humedad</p>
+					</div>
+				</div>
+				<div class="col">
+					<img src="./images/viento.png" alt="viento">
+					<div>
+						<p class="viento"></p>
+						<p>Velocidad de Viento</p>
+					</div>
+				</div>
+				<div class="col">
+					<img src="./images/presion.png" alt="presion">
+					<div>
+						<p class="presion"></p>
+						<p>Presion Atmosferica</p>
+					</div>
+				</div>
+			</div>
+			<iframe class="video" width="798" height="449" src="..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</div>
+	
+<script src="script.js"></script>
+
+</body>
+</html>
